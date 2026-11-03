@@ -41,3 +41,12 @@
   * 発注DX（EDI導入等による手配コスト半減：**K = 5,000円**）により、高頻度・小口発注が可能となり、**総コストを23.8%削減（年間約36万円減）**できることを実証。
 
 <img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/8f850c82-da69-4bf9-8913-26f94d96eefb" />
+
+* **実装価値**:
+  * 需要予測から動的バッファー算定、PuLP最適化までのプロセスをプログラム化し、基幹システム（ERP/WMS）への即時連携基盤を確立。
+
+---
+
+### 🛠️ 技術環境 (Tech Stack)
+* **Language**: Python
+* **Libraries**: `pandas`, `NumPy`, `scikit-learn` (Ridge), `PuLP` (数理最適化), `Plotly`, `matplotlib`
