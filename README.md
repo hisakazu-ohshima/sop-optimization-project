@@ -22,7 +22,7 @@
    * **成果**: 業界水準を大きく凌駕する **予測誤差率（MAPE）2.64%** を達成。
 2. **PuLPによる数理最適化（意思決定の自動化）**:
    * **目的関数**: 在庫保持コストおよび発注コストの合計最小化。
-   * **ハード制約**: 動的安全在庫（SSt）を下回ることを絶対に許さない **It≧SSt（欠品完全回避）**。
+   * **ハード制約**: 動的安全在庫（SS_t）を下回ることを絶対に許さない **It ≥ SS_t（欠品完全回避）**。
    * **決定変数**: 全12品番の「今月作るべき最適生産指示量（Pt）」を自動導出。
 
 ---
@@ -30,23 +30,14 @@
 ### 📊 3. ダッシュボードと出力イメージ (Visual Outputs)
 * **S&OP需要予測・動的在庫ダッシュボード**:
   * 過去のシリコンサイクルの山・谷に対し、遅延なく追従するフィッティング性能を実証。
-  <!-- ![Dashboard Image](ここに画像のURLが入ります) --><img width="1041" height="692" alt="image" src="https://github.com/user-attachments/assets/e5c74e39-a5c0-4a9b-b085-690f3b742552" />
-
+  
+<img width="1041" height="692" alt="image" src="https://github.com/user-attachments/assets/e5c74e39-a5c0-4a9b-b085-690f3b742552" />
 
 ---
 
 ### 💰 4. 財務インパクト & 経営示唆 (Business Impact & ROI)
 * **EOQ（経済的発注量）感度分析**:
   * 発注固定費（K）の変動がトータルコストに与える影響を定量評価。
-  * 発注DX（EDI導入等による手配コスト半減：K=5,000円）により、高頻度・小口発注が可能となり、**総コストを23.8%削減（年間約36万円減）**できることを実証。
-  <!-- ![ROI Analysis](ここに画像のURLが入ります) --><img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/8f850c82-da69-4bf9-8913-26f94d96eefb" />
+  * 発注DX（EDI導入等による手配コスト半減：**K = 5,000円**）により、高頻度・小口発注が可能となり、**総コストを23.8%削減（年間約36万円減）**できることを実証。
 
-
-* **実装価値**:
-  * 需要予測から動的バッファー算定、PuLP最適化までのプロセスをプログラム化し、基幹システム（ERP/WMS）への即時連携基盤を確立。
-
----
-
-### 🛠️ 技術環境 (Tech Stack)
-* **Language**: Python
-* **Libraries**: `pandas`, `NumPy`, `scikit-learn` (Ridge), `PuLP` (数理最適化), `Plotly`, `matplotlib`
+<img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/8f850c82-da69-4bf9-8913-26f94d96eefb" />
