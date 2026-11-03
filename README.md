@@ -1,4 +1,4 @@
-<img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/7d60acfc-cea4-4e7c-974a-867ff3a63412" /># 🏭 S&OP Optimization & Demand Forecasting System
+# 🏭 S&OP Optimization & Demand Forecasting System
 ## 〜ロボット・半導体サプライチェーンにおけるS&OPデジタル変革〜
 
 ### 📌 エグゼクティブサマリー
